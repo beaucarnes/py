@@ -12,10 +12,10 @@
       },
       "setup": {
         "commands": [
-          "pip3 install -r requirements.txt"
+          "pip3 install tap.py==3.0"
         ],
         "commits": [
-          "ba69eb7cabc42944922e45264d6d1797da84bedd"
+          "1550dbec4eeb6268c5e9f6c1562e10f954af97ad"
         ]
       }
     },
@@ -38,13 +38,13 @@
               "src/blackjack.py"
             ],
             "commits": [
-              "dc6740ade51f642b1c10c17b8e7405d70eeaff3a"
+              "a45d5d59c233d1efe57d8bd3cfa146899a5f2980"
             ]
           },
           "content": "Add a variable named `rank` and set it to the value of \"K\" (for king).",
           "solution": {
             "commits": [
-              "83892a1b053ae5d6c147e5cd85c9480212f01f77"
+              "2e1e725cda854c8b5275102f03d2248892fd023d"
             ]
           }
         }
