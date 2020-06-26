@@ -49,6 +49,31 @@
           }
         }
       ]
+    },
+    {
+      "id": "2",
+      "title": "Create another string variable",
+      "summary": "Do it again.",
+      "content": "Do it again.",
+      "steps": [
+        {
+          "id": "2.1",
+          "setup": {
+            "files": [
+              "src/blackjack.py"
+            ],
+            "commits": [
+              "eea88f0a6467d5ba7a12da13926d144bf20bf346"
+            ]
+          },
+          "content": "Add a variable named `ranks` and set it to the value of \"J\" (for joker).",
+          "solution": {
+            "commits": [
+              "ed319560d33e9105eff5325ab2be2c39d424e6bd"
+            ]
+          }
+        }
+      ]
     }
   ]
 }
