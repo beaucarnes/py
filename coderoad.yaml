@@ -33,4 +33,4 @@ levels:
       - id: '3.1'
         setup:
           watchers:
-            - ~/.bash_history
+            - ../.bash_history

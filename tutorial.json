@@ -13,7 +13,7 @@
       "setup": {
         "commands": [
           "pip3 install tap.py==3.0",
-          "cd .. && sed -i \"s/HISTCONTROL=ignoreboth/#/\" .bashrc && echo placeholder >> .bashrc && sed -i \"s/placeholder/PROMPT_COMMAND='echo \"\\$PWD\" >> ~\\/project\\/\\/tests\\/\\.cwd; history -a'/\" .bashrc",
+          "cd .. && sed -i \"s/HISTCONTROL=ignoreboth/#/\" .bashrc && echo placeholder >> .bashrc && sed -i \"s/placeholder/PROMPT_COMMAND='echo \"\\$PWD\" >> ~\\/project\\/tests\\/\\.cwd; history -a'/\" .bashrc",
           "source ~/.bashrc"
         ],
         "commits": [
