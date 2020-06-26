@@ -12,10 +12,12 @@
       },
       "setup": {
         "commands": [
+          "cd .. && sed -i \"s/HISTCONTROL=ignoreboth/#/\" .bashrc && echo placeholder >> .bashrc && sed -i \"s/placeholder/PROMPT_COMMAND='echo \"\\$PWD\" >> ~\\/project\\/\\/tests\\/\\.cwd; history -a'/\" .bashrc",
+          "source ~/.bashrc",
           "pip3 install tap.py==3.0"
         ],
         "commits": [
-          "3adb57e0155bff75608771de8c47e83282cc5a11"
+          "2b9e31f4d1ab751d9fed404d5be9f4e2c80aa7b3"
         ]
       }
     },
@@ -38,13 +40,13 @@
               "blackjack.py"
             ],
             "commits": [
-              "79b15ad579f47b766d9a399b2978466c847a0f6a"
+              "74923312543f98cba432fa08c838d6c7b30e7def"
             ]
           },
           "content": "Add a variable named `rank` and set it to the value of \"K\" (for king).",
           "solution": {
             "commits": [
-              "76788784098f0fbea582b78d8b6fc7ccdc3ae15c"
+              "f34bfc1f2c6ff5ec8a3db3a30a5806b076017815"
             ]
           }
         }
@@ -63,13 +65,38 @@
               "blackjack.py"
             ],
             "commits": [
-              "ce7113ba8025a410b0785b6dea79fd5c55f51eba"
+              "837d48eb1ce6f070582accfc0c85d6eb76799e24"
             ]
           },
           "content": "Add a variable named `ranks` and set it to the value of \"J\" (for joker).",
           "solution": {
             "commits": [
-              "6996c03d92ed676dcd77bd9d65a2fb27221abcf2"
+              "78aadbb2cf3a863d7faf2c2e5defcabc181b2bc7"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Run the blackjack.py file",
+      "summary": "enter `python3 blackjack.py` into the terminal and press enter",
+      "content": "enter `python3 blackjack.py` into the terminal and press enter",
+      "steps": [
+        {
+          "id": "3.1",
+          "setup": {
+            "watchers": [
+              "~/.bash_history"
+            ],
+            "commits": [
+              "e31795bf26203cb03120db0a6641d46e4bd9ad14"
+            ]
+          },
+          "content": "enter `python3 blackjack.py` into the terminal and press enter",
+          "solution": {
+            "commits": [
+              "f9f33250dde36d4d1f672a22c15c05796c4a140e"
             ]
           }
         }
