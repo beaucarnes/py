@@ -19,3 +19,15 @@ Do it again.
 ### 2.1
 
 Add a variable named `ranks` and set it to the value of "J" (for joker).
+
+## 3. Run the blackjack.py file
+
+enter `python3 blackjack.py` into the terminal and press enter
+
+### 3.1
+
+enter `python3 blackjack.py` into the terminal and press enter
+
+#### HINTS
+
+- make sure you're in the `project` folder
