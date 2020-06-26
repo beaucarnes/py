@@ -1,0 +1,22 @@
+version: '0.1.0'
+config:
+  testRunner:
+    command: python3 -m tap tests/*_test.py
+    args:
+      tap: ''
+    setup:
+      commands:
+        - echo 'export PYTHONPATH=~/project' >> ~/.bashrc
+        - echo 'export PYTHONUSERBASE=~/project' >> ~/.bashrc
+        - source ~/.bashrc
+        - pip3 install --user -r requirements.txt
+  repo: 
+    uri: https://github.com/moT01/coderode-python
+    branch: v0.1.0
+levels:
+  - id: '1'
+    steps:
+      - id: '1.1'
+        setup:
+          files:
+            - src/blackjack.py
