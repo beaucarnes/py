@@ -87,7 +87,7 @@
           "id": "3.1",
           "setup": {
             "watchers": [
-              "~/.bash_history"
+              "../.bash_history"
             ],
             "commits": [
               "e31795bf26203cb03120db0a6641d46e4bd9ad14"
