@@ -9,7 +9,7 @@ config:
         # install tap
         - pip3 install tap.py==3.0
         # set up bashrc to log commands entered
-        - cd .. && sed -i "s/HISTCONTROL=ignoreboth/#/" .bashrc && echo placeholder >> .bashrc && sed -i "s/placeholder/PROMPT_COMMAND='echo "\$PWD" >> ~\/project\/\/tests\/\.cwd; history -a'/" .bashrc
+        - cd .. && sed -i "s/HISTCONTROL=ignoreboth/#/" .bashrc && echo placeholder >> .bashrc && sed -i "s/placeholder/PROMPT_COMMAND='echo "\$PWD" >> ~\/project\/tests\/\.cwd; history -a'/" .bashrc
         # restart with new bashrc settings
         - source ~/.bashrc
   repo: 
