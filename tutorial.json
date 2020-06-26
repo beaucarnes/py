@@ -15,7 +15,7 @@
           "pip3 install tap.py==3.0"
         ],
         "commits": [
-          "1550dbec4eeb6268c5e9f6c1562e10f954af97ad"
+          "3adb57e0155bff75608771de8c47e83282cc5a11"
         ]
       }
     },
@@ -35,16 +35,16 @@
           "id": "1.1",
           "setup": {
             "files": [
-              "src/blackjack.py"
+              "blackjack.py"
             ],
             "commits": [
-              "a45d5d59c233d1efe57d8bd3cfa146899a5f2980"
+              "79b15ad579f47b766d9a399b2978466c847a0f6a"
             ]
           },
           "content": "Add a variable named `rank` and set it to the value of \"K\" (for king).",
           "solution": {
             "commits": [
-              "2e1e725cda854c8b5275102f03d2248892fd023d"
+              "76788784098f0fbea582b78d8b6fc7ccdc3ae15c"
             ]
           }
         }
@@ -60,16 +60,16 @@
           "id": "2.1",
           "setup": {
             "files": [
-              "src/blackjack.py"
+              "blackjack.py"
             ],
             "commits": [
-              "eea88f0a6467d5ba7a12da13926d144bf20bf346"
+              "ce7113ba8025a410b0785b6dea79fd5c55f51eba"
             ]
           },
           "content": "Add a variable named `ranks` and set it to the value of \"J\" (for joker).",
           "solution": {
             "commits": [
-              "ed319560d33e9105eff5325ab2be2c39d424e6bd"
+              "6996c03d92ed676dcd77bd9d65a2fb27221abcf2"
             ]
           }
         }
