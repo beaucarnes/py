@@ -9,7 +9,6 @@ config:
         - echo 'export PYTHONPATH=~/project' >> ~/.bashrc
         - echo 'export PYTHONUSERBASE=~/project' >> ~/.bashrc
         - source ~/.bashrc
-        - cd ~/project && pip3 install --user -r requirements.txt
   repo: 
     uri: https://github.com/moT01/py
     branch: v0.1.0
@@ -18,5 +17,7 @@ levels:
     steps:
       - id: '1.1'
         setup:
+          commands:
+            - pip3 install --user -r requirements.txt
           files:
             - src/blackjack.py
