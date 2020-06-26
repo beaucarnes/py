@@ -15,6 +15,5 @@ levels:
     steps:
       - id: '1.1'
         setup:
-          commands:
           files:
             - src/blackjack.py
