@@ -6,7 +6,7 @@ config:
       tap: ''
     setup:
       commands:
-            - pip3 install -r requirements.txt
+        - pip3 install -r requirements.txt
   repo: 
     uri: https://github.com/moT01/py
     branch: v0.1.0
