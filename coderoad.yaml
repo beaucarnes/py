@@ -18,6 +18,6 @@ levels:
       - id: '1.1'
         setup:
           commands:
-            - pip3 install --user -r requirements.txt
+            - pip3 install --user -r requirements.txt -t /home/strove/project
           files:
             - src/blackjack.py
