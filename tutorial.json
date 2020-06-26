@@ -12,12 +12,10 @@
       },
       "setup": {
         "commands": [
-          "echo 'export PYTHONPATH=~/project' >> ~/.bashrc",
-          "echo 'export PYTHONUSERBASE=~/project' >> ~/.bashrc",
-          "source ~/.bashrc"
+          "pip3 install -r requirements.txt"
         ],
         "commits": [
-          "85cc82d57e156ca6794ccb959d335d2256d32995"
+          "ba69eb7cabc42944922e45264d6d1797da84bedd"
         ]
       }
     },
@@ -36,20 +34,17 @@
         {
           "id": "1.1",
           "setup": {
-            "commands": [
-              "pip3 install --user -r requirements.txt"
-            ],
             "files": [
               "src/blackjack.py"
             ],
             "commits": [
-              "0ea47c89101609ac2a52be1ecb9dead5eb262693"
+              "dc6740ade51f642b1c10c17b8e7405d70eeaff3a"
             ]
           },
           "content": "Add a variable named `rank` and set it to the value of \"K\" (for king).",
           "solution": {
             "commits": [
-              "b4fbf0088b5d14e7368b0871cbb6d4e49e3638a4"
+              "83892a1b053ae5d6c147e5cd85c9480212f01f77"
             ]
           }
         }
