@@ -1,0 +1,57 @@
+{
+  "version": "0.1.0",
+  "summary": {
+    "title": "Learn Python Basics by Building a Blackjack Game",
+    "description": "You are going to build a blackjack card game in Python.\n\nEvery card in blackjack has a suit, rank, and value. For example, the king of hearts has a rank of \"king\", a suit of \"hearts\", and a value of 10 (In blackjack, face cards are worth 10)."
+  },
+  "config": {
+    "testRunner": {
+      "command": "python3 -m tap tests/*_test.py",
+      "args": {
+        "tap": ""
+      },
+      "setup": {
+        "commands": [
+          "echo 'export PYTHONPATH=~/project' >> ~/.bashrc",
+          "echo 'export PYTHONUSERBASE=~/project' >> ~/.bashrc",
+          "source ~/.bashrc",
+          "pip3 install --user -r requirements.txt"
+        ],
+        "commits": [
+          "d07bc2d89554a8635d1c7bd864fc38d16c69eaf9"
+        ]
+      }
+    },
+    "repo": {
+      "uri": "https://github.com/moT01/py",
+      "branch": "v0.1.0"
+    }
+  },
+  "levels": [
+    {
+      "id": "1",
+      "title": "Create a string variable",
+      "summary": "Let's represent the king of hearts with Python code. Variables store data. Th...",
+      "content": "Let's represent the king of hearts with Python code. Variables store data. The code already has a variable named `suit` that is set to the value of \"hearts\". Add a variable named `rank` and set it to the value of \"K\" (for king).",
+      "steps": [
+        {
+          "id": "1.1",
+          "setup": {
+            "files": [
+              "src/blackjack.py"
+            ],
+            "commits": [
+              "3ec70954bd783dbbf5c2b5546fef33bd82942f27"
+            ]
+          },
+          "content": "Add a variable named `rank` and set it to the value of \"K\" (for king).",
+          "solution": {
+            "commits": [
+              "0958b2c1050fd3ee96c8d66e4b42747e4d9fd389"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
