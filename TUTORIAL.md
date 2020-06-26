@@ -11,3 +11,11 @@ Let's represent the king of hearts with Python code. Variables store data. The c
 ### 1.1
 
 Add a variable named `rank` and set it to the value of "K" (for king).
+
+## 2. Create another string variable
+
+Do it again.
+
+### 2.1
+
+Add a variable named `ranks` and set it to the value of "J" (for joker).
